@@ -135,6 +135,9 @@ ro.af.client_heap_size_kbyte=7168
 persist.vendor.audio.dualmic.config=endfire
 ro.config.vc_call_vol_steps=8
 
+# stereo speakers: orientation changes swap L/R channels
+ro.audio.monitorRotation=true
+
 ## Bluetooth
 vendor.qcom.bluetooth.soc=hastings
 #Bluetooth SOC type
