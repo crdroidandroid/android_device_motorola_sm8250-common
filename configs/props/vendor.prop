@@ -274,6 +274,8 @@ ro.crypto.dm_default_key.options_format.version = 2
 ro.crypto.volume.metadata.method=dm-default-key
 
 ## Media
+# Create input surface on the framework side
+debug.stagefright.c2inputsurface=-1
 #debug.stagefright.omx_default_rank=0
 #Vendor property to enable Codec2 for audio and OMX for Video
 #debug.stagefright.ccodec=1
