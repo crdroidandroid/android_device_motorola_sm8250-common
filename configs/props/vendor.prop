@@ -252,6 +252,9 @@ drm.service.enabled=true
 ## FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
+# FUSE
+persist.sys.fuse.passthrough.enable=true
+
 ## IMS
 persist.vendor.ims.playout_delay=50
 persist.vendor.ims.cam_sensor_delay=20
