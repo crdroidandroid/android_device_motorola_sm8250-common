@@ -283,7 +283,6 @@ PRODUCT_PACKAGES += \
     libbatching \
     libgeofencing \
     libgnss \
-    libgnsspps \
     libsynergy_loc_api
 
 PRODUCT_PACKAGES += \
