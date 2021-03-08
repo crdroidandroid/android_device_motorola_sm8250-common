@@ -4,6 +4,10 @@ allow init fsg_file:dir mounton;
 allow init fsg_file:filesystem { getattr mount relabelfrom unmount };
 allow init firmware_file:filesystem unmount;
 
+
+# For mount tracefs tracefs /sys/kernel/tracing
+allow init vendor_sysfs_battery_supply:file { setattr };
+
 # Allow init to access loop devices
 allow init loop_device:blk_file { create setattr unlink };
 allowxperm init loop_device:blk_file ioctl {
