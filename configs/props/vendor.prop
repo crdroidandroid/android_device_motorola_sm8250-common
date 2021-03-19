@@ -225,6 +225,7 @@ debug.sf.high_fps_late_sf_phase_offset_ns=-4000000
 debug.sf.high_fps_early_phase_offset_ns=-4000000
 debug.sf.high_fps_early_gl_phase_offset_ns=-4000000
 #Set WCG properties
+ro.surface_flinger.enable_frame_rate_override=true
 ro.surface_flinger.has_wide_color_display=true
 ro.surface_flinger.has_HDR_display=true
 ro.surface_flinger.use_color_management=true
