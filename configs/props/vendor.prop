@@ -280,6 +280,9 @@ debug.stagefright.c2inputsurface=-1
 #Vendor property to enable Codec2 for audio and OMX for Video
 #debug.stagefright.ccodec=1
 
+# Media Performance Class 11
+ro.odm.build.media_performance_class=30
+
 ## Perf
 #Property to enable/disable PASR
 vendor.power.pasr.enabled=true
