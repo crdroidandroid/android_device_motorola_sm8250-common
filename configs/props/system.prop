@@ -117,7 +117,7 @@ persist.sys.wfd.virtual=0
 debug.sf.enable_hwc_vds=1
 
 #property to latch unsignaled buffer
-debug.sf.latch_unsignaled=1
+# debug.sf.latch_unsignaled=1
 
 # enable tunnel encoding for amrwb
 tunnel.audio.encode = true
