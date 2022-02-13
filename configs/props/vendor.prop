@@ -257,6 +257,7 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 persist.sys.fuse.passthrough.enable=true
 
 ## IMS
+ro.qcom.ims.use_moto_vt_ext=true
 persist.vendor.ims.playout_delay=50
 persist.vendor.ims.cam_sensor_delay=20
 persist.vendor.ims.display_delay=40
