@@ -58,7 +58,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     FrameworksResMotoKona \
-    SettingsResMotoKona
+    SettingsResMotoKona \
+    NfcOverlay
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
