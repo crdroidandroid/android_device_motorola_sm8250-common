@@ -218,6 +218,7 @@ vendor.display.use_smooth_motion=1
 vendor.display.enable_camera_smooth=1
 vendor.display.enable_allow_idle_fallback=1
 vendor.display.disable_offline_rotator=1
+debug.sf.predict_hwc_composition_strategy=0
 debug.sf.disable_backpressure=1
 debug.sf.enable_advanced_sf_phase_offset=1
 debug.sf.high_fps_late_sf_phase_offset_ns=-4000000
