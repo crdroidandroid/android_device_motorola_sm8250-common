@@ -46,8 +46,6 @@ vendor.audio.safx.pbe.enabled=false
 vendor.audio.parser.ip.buffer.size=262144
 #flac sw decoder 24 bit decode capability
 vendor.audio.flac.sw.decoder.24bit=true
-#split a2dp DSP supported encoder list
-persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac
 # A2DP offload support
 ro.bluetooth.a2dp_offload.supported=true
 # Disable A2DP offload
