@@ -58,7 +58,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     FrameworksResMotoKona \
-    SettingsResMotoKona \
     NfcOverlay
 
 # A/B
