@@ -296,4 +296,7 @@
 
     <!-- Configure emergency apn as empty(null) apn -->
     <string name="config_emergency_apn" translatable="false"></string>
+
+    <!-- Whether the new Auto Selection Network UI should be shown -->
+    <bool name="config_enableNewAutoSelectNetworkUI">true</bool>
 </resources>
