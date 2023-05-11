@@ -8,7 +8,7 @@ persist.vendor.audio.apptype.multirec.enabled=false
 ##fluencetype can be "fluence" or "fluencepro" or "none"
 ro.vendor.audio.sdk.fluencetype=none
 persist.vendor.audio.fluence.voicecall=true
-persist.vendor.audio.fluence.voicerec=false
+persist.vendor.audio.fluence.voicerec=true
 persist.vendor.audio.fluence.speaker=true
 persist.vendor.audio.fluence.tmic.enabled=false
 ##speaker protection v3 switch and ADSP AFE API version
@@ -95,7 +95,7 @@ vendor.audio.feature.battery_listener.enable=true
 vendor.audio.feature.compr_cap.enable=false
 vendor.audio.feature.compress_in.enable=true
 vendor.audio.feature.compress_meta_data.enable=true
-vendor.audio.feature.compr_voip.enable=false
+vendor.audio.feature.compr_voip.enable=true
 vendor.audio.feature.concurrent_capture.enable=true
 vendor.audio.feature.custom_stereo.enable=true
 vendor.audio.feature.display_port.enable=true
