@@ -897,3 +897,25 @@ service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
 on property:sys.boot_completed=1
     # Only owner can acces this node
     chmod 440 /proc/net/unix
+    setprop vendor.schedutil.enabled 1
+
+on property:vendor.schedutil.enabled=1
+    chmod 0664 /dev/stune/background/schedtune.window_policy
+    chown root system /dev/stune/background/schedtune.window_policy
+    chmod 0664 /dev/stune/foreground/schedtune.window_policy
+    chown root system /dev/stune/foreground/schedtune.window_policy
+    chmod 0664 /dev/stune/top-app/schedtune.window_policy
+    chown root system /dev/stune/top-app/schedtune.window_policy
+    chmod 0664 /dev/stune/schedtune.window_policy
+    chown root system /dev/stune/schedtune.window_policy
+    chown root system /sys/devices/system/cpu/cpufreq/policy0/schedutil/target_loads
+    chmod 0664 /sys/devices/system/cpu/cpufreq/policy0/schedutil/above_hispeed_delay
+    chown root system /sys/devices/system/cpu/cpufreq/policy0/schedutil/above_hispeed_delay
+    chown root system /sys/devices/system/cpu/cpufreq/policy4/schedutil/target_loads
+    chmod 0664 /sys/devices/system/cpu/cpufreq/policy4/schedutil/above_hispeed_delay
+    chown root system /sys/devices/system/cpu/cpufreq/policy4/schedutil/above_hispeed_delay
+    chmod 0664 /sys/devices/system/cpu/cpufreq/policy6/schedutil/above_hispeed_delay
+    chown root system /sys/devices/system/cpu/cpufreq/policy6/schedutil/above_hispeed_delay
+    chown root system /sys/devices/system/cpu/cpufreq/policy7/schedutil/target_loads
+    chmod 0664 /sys/devices/system/cpu/cpufreq/policy7/schedutil/above_hispeed_delay
+    chown root system /sys/devices/system/cpu/cpufreq/policy7/schedutil/above_hispeed_delay
