@@ -2,6 +2,26 @@
 # system.prop for qssi
 #
 
+## Audio
+#Enable music through deep buffer
+audio.deep_buffer.media=true
+#Enable offload audio video playback by default
+audio.offload.video=true
+# Reduce client buffer size for fast audio output tracks
+af.fast_track_multiplier=1
+#offload minimum duration set to 30sec
+audio.offload.min.duration.secs=30
+#offload pausetime out duration to 3 secs to inline with other outputs
+audio.sys.offload.pstimeout.secs=3
+
+## DPM
+persist.vendor.dpm.feature=11
+
+# IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
 rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 #rild.libargs=-d /dev/smd0
 persist.rild.nitz_plmn=

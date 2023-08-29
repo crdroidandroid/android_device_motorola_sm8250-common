@@ -17,6 +17,9 @@
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# Dalvik
+$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
+
 BOARD_SHIPPING_API_LEVEL := 30
 BOARD_API_LEVEL := 30
 PRODUCT_SHIPPING_API_LEVEL := 30
@@ -69,9 +72,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-
-# Properties
-$(call inherit-product, $(LOCAL_PATH)/properties.mk)
 
 # Permissions
 PRODUCT_COPY_FILES += \
