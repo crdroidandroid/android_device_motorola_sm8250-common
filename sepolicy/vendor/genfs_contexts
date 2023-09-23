@@ -79,3 +79,5 @@ genfscon sysfs /devices/platform/soc/soc:qcom,smp2p-cdsp/wakeup                 
 genfscon sysfs /devices/platform/soc/soc:qcom,smp2p-dsps/wakeup                 u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:qcom,smp2p-npu/wakeup/wakeup           u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/diag/diag/wakeup                                u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/soc:gpio_keys/wakeup/wakeup85              u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/input/input8/wakeup86                           u:object_r:sysfs_wakeup:s0
