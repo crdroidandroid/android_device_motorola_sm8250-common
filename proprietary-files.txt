@@ -256,7 +256,6 @@ vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
 vendor/lib64/libcpion.so
 vendor/lib64/libminkdescriptor.so
 vendor/lib64/libminksocket.so
-vendor/lib64/liboemcrypto.so
 vendor/lib64/libtrustedapploader.so
 vendor/lib64/libwvhidl.so
 
