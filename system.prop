@@ -13,6 +13,14 @@ af.fast_track_multiplier=1
 audio.offload.min.duration.secs=30
 #offload pausetime out duration to 3 secs to inline with other outputs
 audio.sys.offload.pstimeout.secs=3
+#audio becoming noisy intent broadcast delay
+audio.sys.noisy.broadcast.delay=500
+#audio device switch mute latency factor for draining unmuted data
+audio.sys.mute.latency.factor=2
+#audio device switch mute latency to absorb routing activities
+audio.sys.routing.latency=0
+#enable deep buffer
+media.stagefright.audio.deep=false
 
 ## DPM
 persist.vendor.dpm.feature=11

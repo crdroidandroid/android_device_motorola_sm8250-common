@@ -130,16 +130,8 @@ vendor.audio.feature.audiozoom.enable=false
 vendor.audio.feature.snd_mon.enable=true
 #audio becoming noisy intent broadcast delay
 audio.sys.noisy.broadcast.delay=500
-#audio device switch mute latency factor for draining unmuted data
-audio.sys.mute.latency.factor=2
-#audio device switch mute latency to absorb routing activities
-audio.sys.routing.latency=0
-#audio becoming noisy intent broadcast delay
-audio.sys.noisy.broadcast.delay=500
 #Set AudioFlinger client heap size
 ro.af.client_heap_size_kbyte=7168
-#enable deep buffer
-media.stagefright.audio.deep=false
 persist.vendor.audio.dualmic.config=endfire
 ro.config.vc_call_vol_steps=8
 
