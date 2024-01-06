@@ -69,6 +69,7 @@ BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(COMMON_PATH)/c
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := \
     $(BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD) \
     $(strip $(shell cat $(COMMON_PATH)/configs/modules.load.recovery))
+BOARD_RAMDISK_USE_XZ := true
 
 # Kernel modules - Audio
 TARGET_MODULE_ALIASES += \
