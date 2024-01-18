@@ -345,8 +345,9 @@ ro.oem_unlock_supported=1
 
 ## Target specific Netflix custom property
 ro.netflix.bsp_rev=Q8250-19134-1
-ro.mot.build.customerid=retcn
+vendor.build.customerid=retcn
 ro.vendor.mot.factory=false
+persist.vendor.ssr.restart_level=ALL_ENABLE
 
 ## Enable zygote critical window.
 zygote.critical_window.minute=10
