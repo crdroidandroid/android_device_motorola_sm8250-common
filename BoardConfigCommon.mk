@@ -186,7 +186,7 @@ TARGET_POWERHAL_MODE_EXT := $(COMMON_PATH)/configs/hidl/touch/power-mode.cpp
 TARGET_USES_INTERACTION_BOOST := true
 
 # Properties
-TARGET_ODM_PROP += $(COMMON_PATH)/configs/ṕrops/odm.prop
+TARGET_ODM_PROP += $(COMMON_PATH)/configs/props/odm.prop
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/configs/props/system.prop
 TARGET_VENDOR_PROP += $(COMMON_PATH)/configs/props/vendor.prop
 
