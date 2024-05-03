@@ -887,11 +887,6 @@ service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
     writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks
     onrestart restart audioserver
 
-on property:sys.boot_completed=1
-    # Only owner can acces this node
-    chmod 440 /proc/net/unix
-    setprop vendor.schedutil.enabled 1
-
 on property:vendor.schedutil.enabled=1
     chmod 0664 /dev/stune/background/schedtune.window_policy
     chown root system /dev/stune/background/schedtune.window_policy
