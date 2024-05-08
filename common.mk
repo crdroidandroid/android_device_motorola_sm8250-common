@@ -532,6 +532,7 @@ PRODUCT_PACKAGES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
+    android.media.audio.common.types-V2-cpp \
     libavservices_minijail \
     libnl \
     libpng.vendor \
