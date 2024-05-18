@@ -184,7 +184,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Power
-TARGET_POWERHAL_MODE_EXT := $(COMMON_PATH)/configs/hidl/touch/power-mode.cpp
+TARGET_POWER_LIBPERFMGR_MODE_EXTENSION_LIB := //$(COMMON_PATH):libperfmgr-ext-moto_kona
 
 # Properties
 TARGET_ODM_PROP += $(COMMON_PATH)/configs/props/odm.prop
