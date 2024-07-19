@@ -64,6 +64,7 @@ TARGET_KERNEL_CONFIG := \
     vendor/kona-perf_defconfig \
     vendor/ext_config/moto-kona.config
 TARGET_KERNEL_SOURCE := kernel/motorola/sm8250
+TARGET_KERNEL_CLANG_VERSION := r487747c
 
 # Kernel modules
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(COMMON_PATH)/configs/modules.load))
