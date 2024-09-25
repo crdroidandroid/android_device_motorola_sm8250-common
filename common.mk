@@ -422,7 +422,7 @@ PRODUCT_COPY_FILES += \
 
 # USB HAL
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3-service-qti \
+    android.hardware.usb-service.qti \
     init.qcom.usb.rc \
     init.qcom.usb.sh
 
@@ -469,7 +469,7 @@ PRODUCT_BOOT_JARS += \
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.qti
+    android.hardware.thermal-service.qti
 
 # Update engine
 PRODUCT_PACKAGES += \
