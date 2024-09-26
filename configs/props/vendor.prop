@@ -354,5 +354,10 @@ vendor.build.customerid=retcn
 ro.vendor.mot.factory=false
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
+# ZRAM writeback
+ro.zram.mark_idle_delay_mins=60
+ro.zram.first_wb_delay_mins=1440
+ro.zram.periodic_wb_delay_hours=24
+
 ## Enable zygote critical window.
 zygote.critical_window.minute=10
