@@ -497,8 +497,5 @@ PRODUCT_PACKAGES += \
     libpng.vendor \
     libwfdaac_vendor
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/sm8250-common/sm8250-common-vendor.mk)
