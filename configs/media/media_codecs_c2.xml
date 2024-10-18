@@ -467,5 +467,6 @@
             <Limit name="performance-point-3840x2160" value="120" />
             <Limit name="performance-point-7680x4320" value="30" />
         </MediaCodec>
+        <Include href="media_codecs_dolby_audio.xml" />
     </Encoders>
 </Included>
