@@ -281,6 +281,15 @@ debug.stagefright.c2inputsurface=-1
 # Media Performance Class 11
 ro.odm.build.media_performance_class=30
 
+# LMK
+ro.lmk.kill_heaviest_task=true
+ro.lmk.swap_free_low_percentage=10
+ro.lmk.swap_util_max=90
+ro.lmk.thrashing_limit=50
+ro.lmk.thrashing_limit_decay=25
+ro.lmk.psi_complete_stall_ms=80
+ro.lmk.psi_partial_stall_ms=50
+
 ## Perf
 #Property to enable/disable PASR
 vendor.power.pasr.enabled=true
