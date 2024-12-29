@@ -225,6 +225,9 @@ $(foreach f,$(wildcard $(LOCAL_PATH)/rootdir/etc/init/*.rc),\
 $(foreach f,$(wildcard $(LOCAL_PATH)/rootdir/bin/*.sh),\
         $(eval PRODUCT_COPY_FILES += $(f):$(TARGET_COPY_OUT_VENDOR)/bin/$(notdir $f)))
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/recovery/root/init.recovery.qcom.rc:recovery/root/init.recovery.qcom.rc
+
 # Dependencies
 PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
