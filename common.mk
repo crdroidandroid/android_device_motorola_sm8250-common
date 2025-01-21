@@ -284,7 +284,6 @@ PRODUCT_PACKAGES += \
     libloc_socket
 
 PRODUCT_PACKAGES += \
-    apdr.conf \
     flp.conf \
     gnss_antenna_info.conf \
     gps.conf \
