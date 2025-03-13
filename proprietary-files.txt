@@ -59,6 +59,7 @@ vendor/lib/libqtigef.so
 vendor/lib/soundfx/libmaxxeffect-cembedded.so
 vendor/lib/soundfx/libmmieffectswrapper.so
 vendor/lib/soundfx/libspeakerbundle.so
+vendor/lib/libMAM2_3-AlgFX-Coretex_A9.so
 
 # Audio Firmware
 vendor/firmware/aw882xx_mono.bin
@@ -303,6 +304,7 @@ vendor/lib64/libloc_api_wds.so
 vendor/lib64/liblocationservice.so
 vendor/lib64/liblocationservice_glue.so
 vendor/lib64/liblowi_client.so
+vendor/lib64/liblowi_wifihal.so
 vendor/lib64/libqcc_file_agent.so
 vendor/lib64/libxtadapter.so
 vendor/lib64/libxtwifi_server_protocol.so
