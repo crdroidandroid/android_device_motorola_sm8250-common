@@ -135,9 +135,6 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
 DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/hidl/manifest.xml
 DEVICE_MATRIX_FILE += $(COMMON_PATH)/configs/hidl/compatibility_matrix.xml
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_moto_kona
-
 # Media
 TARGET_USES_ION := true
 
@@ -169,9 +166,6 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
-
-# Power
-TARGET_POWER_LIBPERFMGR_MODE_EXTENSION_LIB := //$(COMMON_PATH):libperfmgr-ext-moto_kona
 
 # Properties
 TARGET_ODM_PROP += $(COMMON_PATH)/configs/props/odm.prop
